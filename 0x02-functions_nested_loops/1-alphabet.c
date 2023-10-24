@@ -6,15 +6,13 @@
  *
  * Return: this rerturns 0 when the code runs complete
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char c;
 
-	c = 'a';
-	while (c <= 'z')
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
-		c++;
 	}
 
 	_putchar('\n');
